@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <integer name="ga_sessionTimeout">15</integer>
+    <!-- Enable automatic Activity measurement -->
+    <bool name="ga_autoActivityTracking">true</bool>
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.superutilities.NavigationDrawel">NavigationDrawel</screenName>
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.superutilities.BubbleLevel.Level">Level</screenName>
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.superutilities.Compass.CompassActivity">CompassActivity</screenName>
+    <!-- The screen names that will appear in reports -->
+    <screenName name="com.superutilities.UnitConverterUltimate.MainConvertionActivity">MainConvertionActivity</screenName>
+
+    <!--  The following value should be replaced with correct property id. -->
+    <string name="ga_trackingId">UA-74752509-2</string>
+
+
+
+</Resources>

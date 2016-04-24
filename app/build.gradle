@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        supertools_key {
+            keyAlias 'supertools_key'
+            keyPassword 'pitagora0102'
+            storeFile file('C:/Games/supertools_key.jks')
+            storePassword 'pitagora0102'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
+    repositories {
+        mavenCentral()
+    }
+    defaultConfig {
+        applicationId "com.superutilities.superutilities"
+        minSdkVersion 17
+        targetSdkVersion 23
+        versionCode 4
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.android.support:design:23.1.1'
+    compile 'com.android.support:support-v4:23.1.1'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+
+    compile 'com.shamanland:fab:0.0.8'
+    compile 'com.melnykov:floatingactionbutton:1.3.0'
+    compile 'com.facebook.android:facebook-android-sdk:4.0.0'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    compile 'com.google.android.gms:play-services-identity:8.4.0'
+    compile 'com.google.android.gms:play-services-appindexing:8.4.0'
+
+    // [START gms_compile]
+    compile 'com.google.android.gms:play-services-analytics:8.4.0'
+    // [END gms_compile]
+
+
+
+}
+apply plugin: 'com.google.gms.google-services'
+
+

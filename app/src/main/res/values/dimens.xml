@@ -1,0 +1,51 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="fab_margin">16dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+
+    <!-- Level -->
+    <dimen name="level_border_width">5dip</dimen>
+    <dimen name="level_border_height">0dip</dimen>
+    <!-- Display -->
+    <dimen name="display_padding">8dip</dimen>
+    <dimen name="display_border">1dip</dimen>
+    <dimen name="display_gap">20dip</dimen>
+    <!-- Sensor -->
+    <dimen name="sensor_gap">5dip</dimen>
+    <!-- Marker -->
+    <dimen name="marker_thickness">3dip</dimen>
+    <!-- Bubble -->
+    <dimen name="bubble_padding">2dip</dimen>
+    <dimen name="bubble_padding_top">0dip</dimen>
+    <dimen name="bubble_padding_bottom">4dip</dimen>
+    <dimen name="bubble_padding_right">2dip</dimen>
+    <dimen name="bubble_padding_left">2dip</dimen>
+    <!-- LCD -->
+    <dimen name="lcd_text">20dip</dimen>
+    <!-- LOCK -->
+    <dimen name="lock_text">32dip</dimen>
+    <!-- INFO -->
+    <dimen name="info_text">12dip</dimen>
+
+    <dimen name="color_padding">10dip</dimen>
+    <dimen name="color_info_padding">24dip</dimen>
+    <dimen name="five_dip">5dip</dimen>
+
+    <dimen name="activity_vertical_margin">10dp</dimen>
+    <dimen name="activity_horizontal_margin">10dp</dimen>
+
+    <dimen name="list_item_margin_left">5dp</dimen>
+    <dimen name="list_item_type_textsize">10sp</dimen>
+    <dimen name="list_item_values_textsize">12sp</dimen>
+    <dimen name="activity_border_small_padding">5dp</dimen>
+    <dimen name="activity_text_very_small_padding">2dp</dimen>
+    <dimen name="card_elevation">4dp</dimen>
+    <dimen name="card_corner_radius">6dp</dimen>
+
+    <dimen name="margin_view_small">4dp</dimen>
+    <dimen name="margin_view_typical">8dp</dimen>
+    <dimen name="margin_view_large">16dp</dimen>
+    <dimen name="margin_view_xlarge">32dp</dimen>
+</resources>

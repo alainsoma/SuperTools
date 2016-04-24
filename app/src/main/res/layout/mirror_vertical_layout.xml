@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/test"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="vertical"
+    android:background="#ff000000" 
+     >
+
+<!-- camera preview -->
+	<FrameLayout
+	    android:id="@+id/camera_preview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+ >
+	</FrameLayout>
+<!-- End of camera preview -->
+
+<!-- top frame -->
+    <FrameLayout
+	    android:id="@+id/top_light"
+	    android:layout_width="fill_parent"
+	    android:layout_height="60dp"
+	    android:layout_alignParentTop="true"
+    >
+		<ImageView
+		    android:id="@+id/top_light_img"
+		    android:src="@drawable/lightbulb_hor"
+		    android:layout_width="fill_parent"
+		    android:layout_height="match_parent"
+            android:scaleType="fitXY"
+		/>
+    </FrameLayout>
+<!-- End of top frame -->
+  
+<!-- mid frame -->
+    <RelativeLayout 
+        android:id="@+id/mid_frame"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/top_light"
+        android:layout_above="@id/bot_light"
+        >
+		
+    <!-- left/right light frame -->
+        <FrameLayout 
+            android:id="@+id/left_light_frm"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentLeft="true" >
+            
+            <ImageView
+			    android:id="@+id/left_light_img"
+			    android:layout_width="match_parent"
+			    android:layout_height="fill_parent"
+				android:src="@drawable/lightbulb_ver"
+				android:scaleType="fitXY"
+			/>
+        </FrameLayout>
+        
+        <FrameLayout 
+            android:id="@+id/right_light_frm"
+            android:layout_width="60dp"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true" >
+                
+	        <ImageView
+	            android:id="@+id/right_light_img"
+                android:layout_width="match_parent"
+                android:layout_height="fill_parent"
+                android:src="@drawable/lightbulb_ver"
+                android:scaleType="fitXY"
+	        />
+        </FrameLayout>
+    <!-- End of left/right light frame -->
+		
+    <!-- instruction text and image -->
+            <TextView 
+                android:id="@+id/detail_inst_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toLeftOf="@id/right_light_frm"
+                android:layout_toRightOf="@id/left_light_frm"
+                android:background="@android:color/black"
+                android:text="test"
+                android:typeface="normal"
+                android:textSize="20sp"
+                android:visibility="gone"
+            />
+
+	    <RelativeLayout 
+	        android:id="@+id/instruction"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" >
+	        
+            <TextView 
+                android:id="@+id/inst_txt"
+                android:tag="text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:typeface="normal"
+                android:textSize="20sp"
+            />
+            <ImageView
+                android:id="@+id/inst_arr"
+                android:tag="arrow_dn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/mirror_arrow_down1"
+                android:scaleType="fitXY"
+                android:layout_below="@id/inst_txt"
+                android:paddingTop="10dp"
+                android:layout_centerInParent="true"
+            />
+
+        </RelativeLayout>
+    <!-- End of instruction text and image -->
+
+        
+    </RelativeLayout>
+<!-- End of mid frame -->
+
+<!-- bot frame -->
+	<FrameLayout
+		android:id="@+id/bot_light"
+		android:layout_width="fill_parent"
+		android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+	  >
+		<ImageView
+		    android:id="@+id/bot_light_img"
+		    android:src="@drawable/lightbulb_hor"
+		    android:layout_width="fill_parent"
+		    android:layout_height="match_parent"
+            android:scaleType="fitXY"
+		/>
+	</FrameLayout>
+<!-- End of bot frame -->
+  
+</RelativeLayout>
+      

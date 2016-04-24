@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorRulerViewScale">#070705</color>
+    <color name="colorRulerViewPointer">#070705</color>
+    <color name="colorRulerViewLabel">#070705</color>
+    <color name="colorRulerViewBackground">#FAC331</color>
+	
+	<!-- General colors -->
+    <color name="silver">#FF888888</color>
+    <color name="black_reflect">#FF666666</color>
+    <color name="translucent">#00FFFFFF</color>
+    <!-- Level -->
+    <color name="level_liquid_reflect">#FFE9DF00</color>
+    <color name="level_border_reflect">@color/black_reflect</color>
+    <color name="level_liquid_dark">#FFB1C800</color>
+    <color name="level_border">@color/black</color>
+    <!-- Markers -->
+    <color name="marker_stroke">#DD222222</color>
+    <color name="marker_reflect">@color/black_reflect</color>
+    <color name="marker_dark">@color/black</color>
+    <!-- Bubble -->
+    <color name="bubble_center">@color/white</color>
+    <color name="bubble_border">@color/level_liquid_dark</color>
+    <!-- LCD -->
+    <color name="lcd_front">#FF00FF00</color>
+    <color name="lcd_back">#44FFFFFF</color>
+    <!-- LOCK -->
+    <color name="lock_front">#FFFF0000</color>
+    <color name="lock_back">#44FFFFFF</color>
+    <!-- Display -->
+    <color name="display_border">#FF333333</color>
+    <color name="display_dark">@color/black</color>
+    <color name="display_reflect">@color/black_reflect</color>
+	
+	<drawable name="red">#7f00</drawable>
+    <drawable name="blue">#770000ff</drawable>
+    <drawable name="green">#7700ff00</drawable>
+	<drawable name="yellow">#77ffff00</drawable>
+	
+	<drawable name="screen_background_black">#ff000000</drawable>
+   
+   
+    <drawable name="translucent_background">#e0000000</drawable>
+    <drawable name="transparent_background">#00000000</drawable>
+	<color name="popup_grey">#7700ff00</color>
+	<color name="solid_black">#000000</color>
+    <color name="solid_red">#7f00</color>
+    <color name="solid_blue">#0000ff</color>
+    <color name="solid_green">#f0f0</color>
+    <color name="solid_yellow">#ffffff00</color>
+    <color name="solid_white">#FFFFFF</color>
+    <color name="solid_grey">#807D7D</color>
+	
+	<color name="list_item_title">#3f51b5</color>
+    <color name="list_background">#ffffff</color>
+    <color name="list_background_pressed">#f5f5f5</color>
+    <color name="list_divider">#ffffff</color>
+
+    <color name="black">#ffffff</color>
+    <color name="red">#F00</color>
+    <color name="grey">@android:color/holo_blue_light</color>
+    <color name="white">#ffffff</color>
+    <color name="skyblue">#ff33b5e5</color>
+    <color name="grassgreen">#ff99cc00</color>
+    <color name="fixcolor">#ffaa66cc</color>
+    <color name="my_fab_color">#ff3e82</color>
+
+    <color name="accHigh">#669900</color>
+    <color name="accMedium">#FF8800</color>
+    <color name="accLow">#CC0000</color>
+    <color name="accUnreliable">#9933CC</color>
+
+    <color name="theme1">@android:color/holo_blue_light</color>
+    <color name="theme2">#9c27b0</color>
+    <color name="theme3">#ff4444</color>
+    <color name="theme4">#ff4081</color>
+    <color name="theme5">#009688</color>
+    <color name="theme6">#607d8b</color>
+
+    <color name="theme1dark">@android:color/holo_blue_dark</color>
+    <color name="theme2dark">#8e24aa</color>
+    <color name="theme3dark">#e53935</color>
+    <color name="theme4dark">#e91e63</color>
+    <color name="theme5dark">#00897b</color>
+    <color name="theme6dark">#546e7a</color>
+	
+	<color name="theme_blue">#199ACA</color>
+    <color name="theme_blue_dark">#147BA1</color>
+	<color name="theme_orange">#CA7519</color>
+	<color name="theme_silver">#4A525A</color>
+	<color name="theme_silver_dark">#353B40</color>
+    <color name="theme_white">#E5E5E5</color>
+
+	<color name="color_primary">@color/theme_blue</color>
+	<color name="color_primary_dark">@color/theme_blue_dark</color>
+	<color name="color_accent">@color/theme_silver</color>
+	<color name="color_accent_dark">@color/theme_silver_dark</color>
+	
+</resources>
